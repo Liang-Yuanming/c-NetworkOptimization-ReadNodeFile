@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		270DC50D1C9DACA000D82A22 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 270DC50C1C9DACA000D82A22 /* main.cpp */; };
+		270DC5171C9DB62D00D82A22 /* Node.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 270DC5151C9DB62D00D82A22 /* Node.cpp */; };
+		270DC51A1C9DB63D00D82A22 /* Arc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 270DC5181C9DB63D00D82A22 /* Arc.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,12 @@
 /* Begin PBXFileReference section */
 		270DC5091C9DACA000D82A22 /* network_hw1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = network_hw1; sourceTree = BUILT_PRODUCTS_DIR; };
 		270DC50C1C9DACA000D82A22 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		270DC5141C9DAF9F00D82A22 /* test1.sp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test1.sp; sourceTree = "<group>"; };
+		270DC5151C9DB62D00D82A22 /* Node.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Node.cpp; sourceTree = "<group>"; };
+		270DC5161C9DB62D00D82A22 /* Node.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Node.h; sourceTree = "<group>"; };
+		270DC5181C9DB63D00D82A22 /* Arc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Arc.cpp; sourceTree = "<group>"; };
+		270DC5191C9DB63D00D82A22 /* Arc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Arc.h; sourceTree = "<group>"; };
+		270DC51B1C9DDD3F00D82A22 /* test2.sp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test2.sp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +65,13 @@
 		270DC50B1C9DACA000D82A22 /* network_hw1 */ = {
 			isa = PBXGroup;
 			children = (
+				270DC51B1C9DDD3F00D82A22 /* test2.sp */,
+				270DC5141C9DAF9F00D82A22 /* test1.sp */,
 				270DC50C1C9DACA000D82A22 /* main.cpp */,
+				270DC5151C9DB62D00D82A22 /* Node.cpp */,
+				270DC5161C9DB62D00D82A22 /* Node.h */,
+				270DC5181C9DB63D00D82A22 /* Arc.cpp */,
+				270DC5191C9DB63D00D82A22 /* Arc.h */,
 			);
 			path = network_hw1;
 			sourceTree = "<group>";
@@ -118,7 +132,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				270DC51A1C9DB63D00D82A22 /* Arc.cpp in Sources */,
 				270DC50D1C9DACA000D82A22 /* main.cpp in Sources */,
+				270DC5171C9DB62D00D82A22 /* Node.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
